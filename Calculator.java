@@ -6,7 +6,7 @@
  * practice using a version control system. It is a 
  * calculator class which needs to be documented
  * according to the JavaDoc format and indented properly 
- * 	with structured programming.
+ * with structured programming.
  */
 
 /**
