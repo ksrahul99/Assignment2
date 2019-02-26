@@ -3,10 +3,10 @@
  * Class ID: 431
  * Assignment 2
  * Description: This class is given to the students to
- * 				practice using a version control system. It is a 
- * 				calculator class which needs to be documented
- * 				according to the JavaDoc format and indented properly 
- * 				with structured programming.
+ * practice using a version control system. It is a 
+ * calculator class which needs to be documented
+ * according to the JavaDoc format and indented properly 
+ * 	with structured programming.
  */
 
 /**
