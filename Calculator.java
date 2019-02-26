@@ -40,47 +40,56 @@ public class Calculator {
 	}
 	
 	/*
-	 * This is a accessor method.
-	 * @return 0
+	 * This is a accessor method. It accesses the total
+	 * variable after all the operations are completed or 
+	 * whenever required.
+	 * @return total
 	 */
 	public int getTotal () {
-		return 0;
+		return total;
 	}
 	
 	/*
 	 * The given method adds the parameter "value" to the 
-	 * integer variable "total"
+	 * integer variable "total" and assigns a new value
+	 * to the variable "total".
 	 * @param value
 	 */
 	public void add (int value) {
-		
+		total = total+value;
 	}
 	
 	/*
 	 * The given method subtracts the given parameter 'value'
-	 * from the integer variable "total".
+	 * from the integer variable "total" and assigns a new value 
+	 * to the variable "total".
 	 * @param value
 	 */
 	public void subtract (int value) {
-		
+		total = total-value;
 	}
 	
 	/*
 	 * The given method multiplies the variable "total" by
-	 * the given parameter "value".
+	 * the given parameter "value" and assigns a new value 
+	 * to the variable "total".
 	 * @param value
 	 */
 	public void multiply (int value) {
-		
+		total = total*value;
 	}
 	
 	/*
 	 * This method divides the variable total by
-	 * given parameter "value".
+	 * given parameter "value" and assigns a new value 
+	 * to the variable "total".
 	 * @param value
 	 */
 	public void divide (int value) {
-		
+		if(value==0) {
+			total =0;
+		}else
+			total = total/value;
 	}
 	
 	/*
